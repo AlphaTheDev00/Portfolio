@@ -145,64 +145,58 @@ export default function Resume() {
               
               <div className="resume-item">
                 <div className="resume-item-header">
-                  <div className="job-title-company">
-                    <h4>Aspiring Junior Software Engineer | UI-Focused Developer</h4>
-                    <span className="company">General Assembly UK & Europe</span>
-                  </div>
-                  <div className="job-period-location">
-                    <span className="date">December 2024 - Present</span>
-                    <span className="location">United Kingdom · Remote</span>
-                  </div>
+                  <h4>Aspiring Junior Software Engineer | UI-Focused Developer</h4>
+                </div>
+                <div className="job-details">
+                  <div className="job-company">General Assembly UK & Europe</div>
+                  <div className="job-period">December 2024 - Present</div>
+                  <div className="job-location">United Kingdom · Remote</div>
                 </div>
                 <div className="resume-content-block">
-                  <ul>
-                    <li>Recently completed General Assembly's fulltime Software Engineering Immersive, transitioning from design to fullstack development.</li>
-                    <li><strong>Tech Stack:</strong> JavaScript, React, Node.js, Express, Python, Django, PostgreSQL, MongoDB, REST APIs</li>
-                    <li><strong>Tools:</strong> Git/GitHub, Postman, Heroku, Netlify, EJS, Agile</li>
-                    <li>Built and deployed multiple fullstack apps, collaborated in Agile teams, and combined design background with development to create functional, user-centered web apps.</li>
-                    <li>Spearheaded the development of a dynamic, responsive web application, integrating RESTful APIs with a focus on UI/UX design, enhancing user engagement by 30%.</li>
-                  </ul>
+                  <div className="job-description">
+                    <p>Recently completed General Assembly's fulltime Software Engineering Immersive, transitioning from design to fullstack development.</p>
+                    <p><strong>Tech Stack:</strong> JavaScript, React, Node.js, Express, Python, Django, PostgreSQL, MongoDB, REST APIs</p>
+                    <p><strong>Tools:</strong> Git/GitHub, Postman, Heroku, Netlify, EJS, Agile</p>
+                    <p>Built and deployed multiple fullstack apps, collaborated in Agile teams, and combined design background with development to create functional, user-centered web apps.</p>
+                    <p>Spearheaded the development of a dynamic, responsive web application, integrating RESTful APIs with a focus on UI/UX design, enhancing user engagement by 30%.</p>
+                  </div>
                 </div>
               </div>
 
               <div className="resume-item">
                 <div className="resume-item-header">
-                  <div className="job-title-company">
-                    <h4>Freelance Graphic Designer</h4>
-                    <span className="company">Self Employed</span>
-                  </div>
-                  <div className="job-period-location">
-                    <span className="date">September 2012 - May 2019</span>
-                    <span className="location">Marrakesh-Safi, Morocco · Remote</span>
-                  </div>
+                  <h4>Freelance Graphic Designer</h4>
+                </div>
+                <div className="job-details">
+                  <div className="job-company">Self Employed</div>
+                  <div className="job-period">September 2012 - May 2019</div>
+                  <div className="job-location">Marrakesh-Safi, Morocco · Remote</div>
                 </div>
                 <div className="resume-content-block">
-                  <ul>
-                    <li>Worked with clients across industries to create impactful branding, packaging, and marketing assets that elevate brand identities and drive results.</li>
-                    <li><strong>Specialties:</strong> Branding & logo design, Packaging (cosmetics, supplements, food), Social media & digital assets, Print materials</li>
-                    <li>Handled projects from concept to delivery, ensuring creative solutions, clear communication, and on-time results.</li>
-                    <li><strong>Tools:</strong> Adobe Illustrator, Photoshop, InDesign, Figma, Canva</li>
-                  </ul>
+                  <div className="job-description">
+                    <p>Worked with clients across industries to create impactful branding, packaging, and marketing assets that elevate brand identities and drive results.</p>
+                    <p><strong>Specialties:</strong> Branding & logo design, Packaging (cosmetics, supplements, food), Social media & digital assets, Print materials</p>
+                    <p>Handled projects from concept to delivery, ensuring creative solutions, clear communication, and on-time results.</p>
+                    <p><strong>Tools:</strong> Adobe Illustrator, Photoshop, InDesign, Figma, Canva</p>
+                  </div>
                 </div>
               </div>
 
               <div className="resume-item">
                 <div className="resume-item-header">
-                  <div className="job-title-company">
-                    <h4>Web Integrator & UI Designer</h4>
-                    <span className="company">WEB STUDIO AGENCY</span>
-                  </div>
-                  <div className="job-period-location">
-                    <span className="date">January 2013 - February 2014</span>
-                    <span className="location">Marrakesh-Safi, Morocco · On-site</span>
-                  </div>
+                  <h4>Web Integrator & UI Designer</h4>
+                </div>
+                <div className="job-details">
+                  <div className="job-company">WEB STUDIO AGENCY</div>
+                  <div className="job-period">January 2013 - February 2014</div>
+                  <div className="job-location">Marrakesh-Safi, Morocco · On-site</div>
                 </div>
                 <div className="resume-content-block">
-                  <ul>
-                    <li>Transformed design elements into fully functional web pages, combining creativity with technical skills for a seamless user experience.</li>
-                    <li><strong>Key Responsibilities:</strong> UI Design, Front-End Development, Collaboration, Responsive Design</li>
-                    <li><strong>Key Skills Developed:</strong> Frontend development (HTML5, CSS3, JavaScript), Collaboration in multidisciplinary teams</li>
-                  </ul>
+                  <div className="job-description">
+                    <p>Transformed design elements into fully functional web pages, combining creativity with technical skills for a seamless user experience.</p>
+                    <p><strong>Key Responsibilities:</strong> UI Design, Front-End Development, Collaboration, Responsive Design</p>
+                    <p><strong>Key Skills Developed:</strong> Frontend development (HTML5, CSS3, JavaScript), Collaboration in multidisciplinary teams</p>
+                  </div>
                 </div>
               </div>
             </div>

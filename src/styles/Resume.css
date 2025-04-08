@@ -168,59 +168,86 @@ body.dark-mode .resume-section h3 {
   margin-bottom: 12px;
 }
 
-.job-title-company, .education-degree {
+.resume-item-header h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  color: #2563eb;
+}
+
+body.dark-mode .resume-item-header h4 {
+  color: #60a5fa;
+}
+
+.job-details {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.job-company {
+  font-weight: 500;
+  color: #4b5563;
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+
+.job-period, .job-location {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 2px;
+}
+
+body.dark-mode .job-company {
+  color: #9ca3af;
+}
+
+body.dark-mode .job-period,
+body.dark-mode .job-location {
+  color: #9ca3af;
+}
+
+.job-description p {
+  margin: 0 0 5px 0;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.education-degree {
   margin-bottom: 5px;
 }
 
-.job-title-company h4, .education-degree h4 {
+.education-degree h4 {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 3px 0;
   color: #2563eb;
 }
 
-body.dark-mode .job-title-company h4,
 body.dark-mode .education-degree h4 {
   color: #60a5fa;
 }
 
-.company, .institution {
+.institution {
   font-weight: 500;
   color: #4b5563;
   font-size: 0.95rem;
   display: block;
 }
 
-body.dark-mode .company,
 body.dark-mode .institution {
   color: #9ca3af;
-}
-
-.job-period-location {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  font-size: 0.85rem;
-  color: #6b7280;
-}
-
-body.dark-mode .job-period-location {
-  color: #9ca3af;
-}
-
-.date, .location {
-  display: flex;
-  align-items: center;
 }
 
 .resume-item ul {
   margin: 0;
   padding-left: 18px;
+  text-align: left;
 }
 
 .resume-item li {
   margin-bottom: 6px;
   line-height: 1.5;
+  text-align: left;
 }
 
 /* Two Column Layout */
