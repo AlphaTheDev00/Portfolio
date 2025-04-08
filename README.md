@@ -1,4 +1,6 @@
-# Yassine Chikar - Portfolio
+# Welcome to my Portfolio 👋
+
+This application is available to view live at: https://alphathedev00.github.io
 
 A modern, responsive portfolio website showcasing my projects and skills as a Software Engineer.
 
