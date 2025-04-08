@@ -131,7 +131,7 @@ body.dark-mode .resume-contact-info p {
 
 /* Section Styling */
 .resume-section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .resume-section h3 {
@@ -151,12 +151,12 @@ body.dark-mode .resume-section h3 {
 }
 
 .resume-content-block {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .resume-content-block p {
-  margin: 0 0 10px 0;
-  line-height: 1.6;
+  margin: 0;
+  line-height: 1.5;
 }
 
 /* Experience Items */
