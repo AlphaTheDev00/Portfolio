@@ -1,6 +1,11 @@
 .resume-section {
   padding: 60px 0;
   min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+body.dark-mode .resume-section {
+  background-color: #111827;
 }
 
 .resume-section .container {
@@ -12,27 +17,21 @@
 .resume-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
+}
+
+.resume-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin: 0;
   text-align: left;
-}
-
-.section-subtitle {
-  font-size: 1.1rem;
-  color: #777;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.resume-actions {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 20px;
 }
 
 .btn-download {
@@ -41,10 +40,11 @@
   gap: 8px;
   background-color: #2563eb;
   color: white;
-  padding: 12px 24px;
+  padding: 10px 20px;
   border-radius: 6px;
   font-weight: 600;
-  text-decoration: none;
+  border: none;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -56,81 +56,161 @@
 .resume-paper {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 40px;
   color: #333;
 }
 
+body.dark-mode .resume-paper {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
 .resume-header {
-  border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 25px;
   margin-bottom: 30px;
 }
 
-.resume-header h1 {
-  font-size: 2.2rem;
+body.dark-mode .resume-header {
+  border-bottom-color: #374151;
+}
+
+.resume-name-title {
+  flex: 1;
+}
+
+.resume-name-title h1 {
+  font-size: 2.4rem;
   font-weight: 700;
-  margin-bottom: 15px;
-  color: #111;
+  margin: 0 0 5px 0;
+  color: #111827;
+  letter-spacing: -0.5px;
+}
+
+.resume-name-title h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  color: #4b5563;
+}
+
+body.dark-mode .resume-name-title h1 {
+  color: #f9fafb;
+}
+
+body.dark-mode .resume-name-title h2 {
+  color: #9ca3af;
 }
 
 .resume-contact-info {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px 30px;
+  flex-direction: column;
+  gap: 8px;
+  text-align: right;
 }
 
 .resume-contact-info p {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: flex-end;
+  gap: 8px;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  color: #4b5563;
 }
 
+body.dark-mode .resume-contact-info p {
+  color: #9ca3af;
+}
+
+/* Section Styling */
 .resume-section {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .resume-section h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 15px;
-  color: #111;
-  border-bottom: 1px solid #eaeaea;
+  margin: 0 0 15px 0;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
   padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
+body.dark-mode .resume-section h3 {
+  color: #f3f4f6;
+  border-bottom-color: #374151;
+}
+
+.resume-content-block {
+  margin-bottom: 15px;
+}
+
+.resume-content-block p {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+}
+
+/* Experience Items */
 .resume-item {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .resume-item-header {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
-.resume-item-header h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
+.job-title-company, .education-degree {
   margin-bottom: 5px;
+}
+
+.job-title-company h4, .education-degree h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 3px 0;
   color: #2563eb;
 }
 
-.resume-item-details {
+body.dark-mode .job-title-company h4,
+body.dark-mode .education-degree h4 {
+  color: #60a5fa;
+}
+
+.company, .institution {
+  font-weight: 500;
+  color: #4b5563;
+  font-size: 0.95rem;
+  display: block;
+}
+
+body.dark-mode .company,
+body.dark-mode .institution {
+  color: #9ca3af;
+}
+
+.job-period-location {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 20px;
-  font-size: 0.9rem;
-  color: #555;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #6b7280;
 }
 
-.resume-item-details .company {
-  font-weight: 600;
+body.dark-mode .job-period-location {
+  color: #9ca3af;
 }
 
-.resume-item-details .date,
-.resume-item-details .location {
-  color: #666;
+.date, .location {
+  display: flex;
+  align-items: center;
 }
 
 .resume-item ul {
@@ -139,21 +219,32 @@
 }
 
 .resume-item li {
-  margin-bottom: 4px;
-  line-height: 1.4;
+  margin-bottom: 6px;
+  line-height: 1.5;
 }
 
-.skills-grid {
+/* Two Column Layout */
+.resume-two-column {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Skills Styling */
+.skills-category {
+  margin-bottom: 20px;
 }
 
 .skills-category h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 12px;
-  color: #333;
+  margin: 0 0 10px 0;
+  color: #4b5563;
+}
+
+body.dark-mode .skills-category h4 {
+  color: #d1d5db;
 }
 
 .skills-list {
@@ -163,11 +254,72 @@
 }
 
 .skills-list span {
-  background-color: #f0f7ff;
-  color: #2563eb;
-  padding: 6px 12px;
+  background-color: #eef2ff;
+  color: #4f46e5;
+  padding: 5px 10px;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+body.dark-mode .skills-list span {
+  background-color: #312e81;
+  color: #a5b4fc;
+}
+
+.language-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-list li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .resume-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .resume-contact-info {
+    text-align: left;
+  }
+  
+  .resume-contact-info p {
+    justify-content: flex-start;
+  }
+  
+  .resume-two-column {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .resume-paper {
+    padding: 25px;
+  }
+  
+  .resume-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-name-title h1 {
+    font-size: 2rem;
+  }
+  
+  .resume-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .job-title-company h4, .education-degree h4 {
+    font-size: 1rem;
+  }
 }
 
 /* Dark mode styles */
