@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'>
+  <rect width='800' height='600' fill='#6366f1'/>
+  <g transform='translate(100, 100)'>
+    <path d='M350,100 L500,300 L350,500 L200,300 Z' fill='#a855f7' stroke='white' stroke-width='10'/>
+    <path d='M350,200 L450,300 L350,400 L250,300 Z' fill='white' opacity='0.8'/>
+    <circle cx='350' cy='300' r='50' fill='#f59e0b'/>
+  </g>
+  <text x='400' y='500' font-size='60' fill='white' text-anchor='middle' font-weight='bold'>HeroPedia</text>
+</svg>
