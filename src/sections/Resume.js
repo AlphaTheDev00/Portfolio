@@ -14,7 +14,6 @@ export default function Resume() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="section-title">Resume</h2>
-          <p className="section-subtitle">My professional background and experience</p>
           
           <div className="resume-actions">
             <a 
@@ -30,7 +29,7 @@ export default function Resume() {
             <div className="resume-header">
               <h1>Yassine Chikar</h1>
               <div className="resume-contact-info">
-                <p><FiMapPin /> Airdrie, Scotland, United Kingdom</p>
+                <p><FiMapPin /> Edinburgh, Scotland, United Kingdom</p>
                 <p><FiMail /> yassine.chikar@outlook.com</p>
                 <p><FiPhone /> +44 7778 316718</p>
                 <p><FiLinkedin /> linkedin.com/in/yassinechikar</p>
@@ -40,13 +39,7 @@ export default function Resume() {
             <div className="resume-section">
               <h3>Summary</h3>
               <p>
-                Junior software engineer with a strong background in design and years of freelance experience in branding, packaging, and UI/UX. 
-                Recently transitioned into tech after completing General Assembly's Software Engineering Immersive, focusing on full-stack development.
-              </p>
-              <p>
-                With a creative eye and solid technical skills, I build clean, user-friendly web apps using JavaScript, React, Node.js, and Python. 
-                My design experience helps me deliver intuitive user interfaces, while my freelance background has taught me how to manage projects, 
-                meet deadlines, and work independently.
+                Junior software engineer with a strong background in design and years of freelance experience in branding, packaging, and UI/UX. Recently transitioned into tech after completing General Assembly's Software Engineering Immersive, focusing on full-stack development. With a creative eye and solid technical skills, I build clean, user-friendly web apps using JavaScript, React, Node.js, and Python. My design experience helps me deliver intuitive user interfaces, while my freelance background has taught me how to manage projects, meet deadlines, and work independently.
               </p>
             </div>
 
