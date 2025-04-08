@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'>
+  <rect width='800' height='600' fill='#a855f7'/>
+  <g transform='translate(100, 100)'>
+    <circle cx='350' cy='250' r='150' fill='#6366f1'/>
+    <ellipse cx='350' cy='200' rx='120' ry='80' fill='white' opacity='0.8'/>
+    <path d='M250,300 L450,300 L400,400 L300,400 Z' fill='white'/>
+    <path d='M300,250 L400,250 L350,300 Z' fill='#f59e0b'/>
+  </g>
+  <text x='400' y='500' font-size='60' fill='white' text-anchor='middle'>Savora</text>
+</svg>

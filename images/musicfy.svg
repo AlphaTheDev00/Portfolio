@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'>
+  <rect width='800' height='600' fill='#6366f1'/>
+  <g transform='translate(100, 100)'>
+    <path d='M300,200 A100,100 0 0 1 200,300 A100,100 0 0 1 100,200 A100,100 0 0 1 300,200 Z' fill='#a855f7'/>
+    <path d='M400,200 L500,100 L600,200 L500,300 Z' fill='white' opacity='0.8'/>
+    <circle cx='350' cy='250' r='30' fill='white'/>
+    <path d='M150,150 L250,150 L200,250 Z' fill='white' opacity='0.6'/>
+  </g>
+  <text x='400' y='500' font-size='60' fill='white' text-anchor='middle'>MusicFy</text>
+</svg>
