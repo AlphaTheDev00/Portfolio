@@ -1,33 +1,39 @@
-# Getting Started with Create React App
+# Yassine Chikar - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my projects and skills as a Software Engineer.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Modern, clean design with dark/light mode toggle
+- Responsive layout for all devices
+- Project showcase with links to live demos and GitHub repositories
+- Skills section highlighting technical expertise
+- Contact information and social links
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- CSS3 with custom variables for theming
+- Framer Motion for animations
+- React Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/AlphaTheDev00/Portfolio.git
 
-### `npm run build`
+# Navigate to the project directory
+cd Portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start the development server
+npm start
+```
 
 ### `npm run eject`
 
@@ -68,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Portfolio
+>>>>>>> 39a5274fe20bb598db4839736829d53b786f2cc5
